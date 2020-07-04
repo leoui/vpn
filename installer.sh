@@ -389,7 +389,7 @@ verb 3" > /etc/openvpn/client-common.txt
 	# Buat client.ovpn
 	newclient "$CLIENT"
 	echo
-	echo "Finished!"
+	echo "Selesai!"
 	echo
 	mv ~/"$CLIENT.ovpn" /home/"$CLIENT.ovpn"
 	echo "File berhasil dibuat, filenya bisa kamu unduh disini::" /home/"$CLIENT.ovpn"
